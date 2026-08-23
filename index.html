@@ -1,72 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myntra</title>
+
+    <meta
+        name="description"
+        content="A responsive Myntra-inspired e-commerce homepage built using HTML, CSS and JavaScript."
+    >
+
+    <title>Myntra Clone | Fashion & Lifestyle</title>
+
+    <link rel="icon" href="./Images/logo-removebg-preview.png">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utils.css">
 </head>
+
 <body>
+
+    <!-- ================= HEADER ================= -->
+
     <header class="main_container shadow">
+
         <nav class="space-between flex">
+
+            <!-- LEFT NAVIGATION -->
+
             <div class="rightcontainer flex item_center">
-                <img src="https://cdn.iconscout.com/icon/free/png-256/free-myntra-2709168-2249158.png" alt="logo">
+
+                <a href="#" class="logo-link" aria-label="Myntra Clone Home">
+                    <img
+                        src="./Images/logo-removebg-preview.png"
+                        alt="Myntra Clone Logo"
+                        class="logo"
+                    >
+                </a>
+
                 <ul class="flex ul uppercase semibold">
-                    <li>Man</li>
-                    <li>Woman</li>
-                    <li>Kids</li>
-                    <li>Home&Living</li>
-                    <li>Beauty</li>
-                    <li>Studio</li>
+
+                    <li>
+                        <a href="#">Men</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Women</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Kids</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Home & Living</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Beauty</a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Studio
+                            <sup class="new-label">NEW</sup>
+                        </a>
+                    </li>
+
                 </ul>
 
             </div>
+
+
+            <!-- SEARCH + ACCOUNT -->
+
             <div class="leftcontainer flex item_center">
-                <input placeholder="Search for products, brands and more" class="desktop-searchBar" value="" data-reactid="907">
-                <div class="profile  m-2">Profile</div>
-                <div class="wishlist m-2">wishlist</div>
-                <div class="bag m-2"> Bag</div>
+
+                <div class="search-container">
+
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        type="search"
+                        placeholder="Search for products, brands and more"
+                        class="desktop-searchBar"
+                        aria-label="Search products"
+                    >
+
+                </div>
+
+
+                <div class="profile nav-action">
+                    <span>👤</span>
+                    <p>Profile</p>
+                </div>
+
+                <div class="wishlist nav-action">
+                    <span>♡</span>
+                    <p>Wishlist</p>
+                </div>
+
+                <div class="bag nav-action">
+                    <span>🛍</span>
+                    <p>Bag</p>
+                </div>
 
             </div>
 
         </nav>
+
     </header>
 
-    <section class="main_container section">
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/26/628442be-4d04-42d3-91ac-dc9a8a5f66591708889700507-PB-DK.gif" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/9be788ff-39a4-4214-99d0-fc97505aae5a1658752545685-USPA_Desk_Banner.jpg" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg" style="width:100%">
-            </div>
-          
-            <!-- You can add more images here -->
-        </div>
 
-        <div class="medal">MEDAL WORTHY BRANDS TO BAG</div>
+    <!-- ================= MAIN CONTENT ================= -->
 
-        <section class="imageSection main_container flex">
+    <main>
 
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png" alt="">
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png" alt="">
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png" alt="">
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png" alt="">
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png" alt="">
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png" alt="">
-            <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png" alt="">
+        <!-- HERO SLIDESHOW -->
+
+        <section
+            class="main_container section hero-section"
+            aria-label="Promotional offers"
+        >
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+
+                    <img
+                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/26/628442be-4d04-42d3-91ac-dc9a8a5f66591708889700507-PB-DK.gif"
+                        alt="Myntra promotional fashion sale"
+                        loading="eager"
+                    >
+
+                </div>
+
+
+                <div class="mySlides fade">
+
+                    <img
+                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/9be788ff-39a4-4214-99d0-fc97505aae5a1658752545685-USPA_Desk_Banner.jpg"
+                        alt="US Polo Assn fashion banner"
+                        loading="lazy"
+                    >
+
+                </div>
+
+
+                <div class="mySlides fade">
+
+                    <img
+                        src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg"
+                        alt="Handbags promotional banner"
+                        loading="lazy"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDESHOW DOTS -->
+
+            <div class="slider-dots" aria-label="Slideshow navigation">
+
+                <button
+                    class="dot"
+                    aria-label="Show slide 1"
+                    onclick="currentSlide(1)"
+                ></button>
+
+                <button
+                    class="dot"
+                    aria-label="Show slide 2"
+                    onclick="currentSlide(2)"
+                ></button>
+
+                <button
+                    class="dot"
+                    aria-label="Show slide 3"
+                    onclick="currentSlide(3)"
+                ></button>
+
+            </div>
+
         </section>
 
 
-    </section>
-    
+        <!-- ================= MEDAL WORTHY BRANDS ================= -->
+
+        <section class="brands-section">
+
+            <div class="main_container">
+
+                <h2 class="section-title">
+                    MEDAL WORTHY BRANDS TO BAG
+                </h2>
 
 
-    
+                <div class="imageSection brand-grid">
+
+                    <a href="#" class="brand-card">
+
+                        <img
+                            src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/71a69cc9-210a-4a95-b37f-78319c8f33761691141606256-image_png2064277310.png"
+                            alt="Featured fashion brand"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <a href="#" class="brand-card">
+
+                        <img
+                            src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/29/3d9bb94b-d68a-44f2-8ff8-38b9b28242951690611571521-image_png_1967160534.png"
+                            alt="Featured clothing brand"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <a href="#" class="brand-card">
+
+                        <img
+                            src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/29/163fe937-f397-4bf9-a489-3132c223050f1690611603946-image_png892932383.png"
+                            alt="Featured lifestyle brand"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <a href="#" class="brand-card">
+
+                        <img
+                            src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/29/1028736f-3c82-4994-a89c-a5c7050ed8bf1690611627935-image_png_1950634312.png"
+                            alt="Featured fashion collection"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <a href="#" class="brand-card">
+
+                        <img
+                            src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/29/96f78165-1c5a-4283-9de2-41e9098d9ac31690611681408-image_png_273915188.png"
+                            alt="Featured footwear brand"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <a href="#" class="brand-card">
+
+                        <img
+                            src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/29/ab7f5a4d-2a3a-43cf-872c-1b71f76f97741690611764119-image_png_79063983.png"
+                            alt="Featured premium fashion brand"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SHOP BY CATEGORY ================= -->
+
+        <section class="category-section">
+
+            <div class="main_container">
+
+                <h2 class="section-title">
+                    SHOP BY CATEGORY
+                </h2>
+
+                <div class="category-grid">
+
+                    <article class="category-card">
+                        <div class="category-placeholder">👕</div>
+                        <h3>Men's Fashion</h3>
+                        <p>Explore trending styles</p>
+                    </article>
+
+                    <article class="category-card">
+                        <div class="category-placeholder">👗</div>
+                        <h3>Women's Fashion</h3>
+                        <p>Discover new collections</p>
+                    </article>
+
+                    <article class="category-card">
+                        <div class="category-placeholder">👟</div>
+                        <h3>Footwear</h3>
+                        <p>Step into new styles</p>
+                    </article>
+
+                    <article class="category-card">
+                        <div class="category-placeholder">⌚</div>
+                        <h3>Accessories</h3>
+                        <p>Complete your look</p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="main_container footer-container">
+
+            <div>
+
+                <h3>Myntra Clone</h3>
+
+                <p>
+                    A frontend recreation built for learning and
+                    demonstration purposes.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>Useful Links</h4>
+
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Home & Living</a></li>
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>Project</h4>
+
+                <ul>
+                    <li>
+                        <a
+                            href="https://github.com/sh1vesh/Myntra-Clone"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub Repository
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                Built for educational purposes · Myntra Clone
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
-<script src="script.js"></script>
+
 </html>
