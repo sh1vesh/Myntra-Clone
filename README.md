@@ -10,24 +10,27 @@ The project focuses on recreating the visual structure of Myntra with a navigati
 
 ### Desktop Homepage
 
-![Myntra Clone Home](screenshots/myntra-home.png)
+![Myntra Clone Homepage](./Images/screenshots/myntra-home.png)
 
 ### Navigation & Search
 
-![Myntra Navigation](screenshots/myntra-navbar.png)
+![Myntra Navigation](./Images/screenshots/myntra-navbar.png)
 
 ### Hero Banner
 
-![Myntra Banner](screenshots/myntra-banner.png)
+![Myntra Banner](./Images/screenshots/myntra-banner.png)
 
-### Brand Section
+### Brand Showcase
 
-![Myntra Brands](screenshots/myntra-brands.png)
+![Myntra Brands](./Images/screenshots/myntra-brands.png)
+
+### Shop by Category
+
+![Myntra Categories](./Images/screenshots/myntra-categories.png)
 
 ### Mobile / Responsive View
 
-![Myntra Mobile](screenshots/myntra-mobile.png)
-
+![Myntra Mobile](./Images/screenshots/myntra-mobile.png)
 ---
 
 ## ✨ Features
