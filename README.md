@@ -40,6 +40,7 @@ The project focuses on recreating the visual structure of Myntra with a navigati
 
 ![Myntra Mobile Footer](./screenshots/myntra-mobile-footer.png)
 
+### Check the live project here : https://myntra-clone-eight-chi.vercel.app/
 ---
 
 ## ✨ Features
